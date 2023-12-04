@@ -1,0 +1,82 @@
+body{
+    background: rgb(28, 50, 37);
+}
+.todoList{
+    background: rgba(245, 222, 179, 0.275);
+    padding: 20px;
+    border-radius: 25px;
+    width: 400px;
+
+}
+.todoList h1{
+    text-align: center;
+    color: white;
+}
+.todoAdd{
+    margin-bottom: 10px;
+}
+.todoAdd input{
+    width: 378px;
+    height: 30px;
+    background: rgb(164, 164, 164);
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding: 0 0 0 20px;
+}
+.todoAdd button{
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background: rgb(16, 236, 137);
+    color: rgb(74, 69, 69);
+    font-weight: 600;
+    margin-left: -59px;
+    cursor: pointer;
+}
+
+.filterButton{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.filterButton button{
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    background: rgb(16, 236, 137);
+}
+
+.todoTasks{
+    margin-top: 10px;
+}
+.todoTask{
+    display: flex;
+    justify-content: space-between;
+}
+.tickUntick{
+    display: flex;
+    width: 400px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.tickUntick img{
+    height: 30px;
+    margin-right: 10px;
+}
+.tickUntick .taskIncomplete{
+
+}
+.tickUntick .taskComplete{
+    text-decoration: line-through solid rgb(14, 14, 14) 2px;
+}
+
+.deleteTick img{
+    height: 30px;
+}
